@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { NuxtError } from '#app'
 
-const props = defineProps<{
+defineProps<{
   error: NuxtError
 }>()
 </script>
@@ -9,6 +9,9 @@ const props = defineProps<{
 <template>
   <div>
     <h1>{{ error.statusCode }}</h1>
-    <NuxtLink to="/">Go back home</NuxtLink>
+
+    <UButton to="/">
+      Go back home
+    </UButton>
   </div>
 </template>

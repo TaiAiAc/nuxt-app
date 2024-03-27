@@ -1,6 +1,6 @@
 export default defineAppConfig({
-  theme: {
-    primaryColor: '#ababab'
+  ui: {
+    primary: 'primary1',
   },
-  locals:'en-US',
+  locale: 'zh-CN',
 })

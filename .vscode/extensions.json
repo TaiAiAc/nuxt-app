@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    "vue.volar",
+    "svenzhao.var-translation",
+    "aaron-bond.better-comments",
+    "ms-ceintl.vscode-language-pack-zh-hans",
+    "w88975.code-translate",
+    "mikestead.dotenv",
+    "dbaeumer.vscode-eslint",
+    "lokalise.i18n-ally",
+    "afzalsayed96.icones",
+    "antfu.iconify",
+    "kisstkondoros.vscode-gutter-preview",
+    "wix.vscode-import-cost",
+    "cpreston321.nuxt-vscode",
+    "nuxtr.nuxt-vscode-extentions",
+    "nuxtr.nuxtr-vscode",
+    "liviuschera.noctis",
+    "bradlc.vscode-tailwindcss"
+  ]
+}

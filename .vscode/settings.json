@@ -65,5 +65,50 @@
     "jsonc",
     "yaml",
     "toml"
-  ]
+  ],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.experimental.configFile": "tailwind.config.ts",
+  "tailwindCSS.experimental.classRegex": [
+    ["ui:\\s*{([^)]*)\\s*}", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["/\\*ui\\*/\\s*{([^;]*)}", ":\\s*[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "ui"
+  ],
+  "i18n-ally.localesPaths": "./i18n",
+  "i18n-ally.sourceLanguage": "zh-cn",
+  "i18n-ally.keystyle": "flat",
+  "i18n-ally.preferredDelimiter": "_",
+  "i18n-ally.sortKeys": true,
+  "i18n-ally.sortCompare": "binary",
+  "i18n-ally.keepFulfilled": true,
+  "i18n-ally.translate.promptSource": true,
+  "i18n-ally.pathMatcher": "{locale}.json",
+  "i18n-ally.translate.saveAsCandidates": true,
+  "i18n-ally.keysInUse": [
+    "view.progress_submenu.translated_keys",
+    "view.progress_submenu.missing_keys",
+    "view.progress_submenu.empty_keys"
+  ],
+  "i18n-ally.usage.scanningIgnore": [
+    "examples"
+  ],
+  "i18n-ally.regex.usageMatchAppend": [
+    "/\\*\\s*i18n\\s*\\*/\\s*['\"`]({key})['\"`]"
+  ],
+  "i18n-ally.enabledFrameworks": [
+    "vscode",
+    "vue",
+    "general"
+  ],
+  "i18n-ally.theme.annotationMissingBorder": "#7dd3fc",
+  "i18n-ally.theme.annotationMissing": "#7dd3fc"
 }
